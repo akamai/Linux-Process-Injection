@@ -14,7 +14,7 @@ These primitives can be combined freely to create "custom" injection variations.
 
 The following primitives are implemented:
 
-## ptrace primitives
+## ptrace
 
 **ptrace_poketext_write** 
 
@@ -28,7 +28,7 @@ Hijack the execution flow of a remote process by using the ptrace SETREGS reques
 
 Hijack the execution flow of a remote process by using the ptrace POKEUSER request to modify the process RIP register by accessing the process user area.
 
-## procfs primitives
+## procfs mem
 **procfs_proc_mem_write**
 
 
