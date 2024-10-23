@@ -68,7 +68,7 @@ To make this method more reliable, it is required to parse the GOT and target sp
 This repository includes a few examples that use the implemented primitives to perfrom injection attacks.
 To build them, run the *make* command inside the main folder.
 
-To use the primitives in your own code to create custom implementations, simply include the relevant header file.
+Implementations of the different primitives can be found in the *src* folder. To use them in your own code to create custom implementations, simply include the relevant header file.
 Please use the *examples* folder for additional reference. 
 
 -------
