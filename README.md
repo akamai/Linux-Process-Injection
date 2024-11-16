@@ -4,6 +4,9 @@ This repository contains proof-of-concept implementations of various Linux proce
 This code is meant to provide simple examples of injection techniques in action, allowing defenders to understand how they work and to test detections.
 For the sake of simplicity and to keep the code as benign as possible, the implemented techniques **don't handle process recovery** - meaning that the target process will likely crash after the injected payload finishes.
 
+For additional information on the different techniques, please refer to our blog post:
+https://www.akamai.com/blog/security-research/the-definitive-guide-to-linux-process-injection
+
 The primitives are implemented using 3 methods: *ptrace*, *procfs mem*, and *process_vm_writev*.
 For each of them, 2 types of primitives were implemented:
 - **Write primitives**: intended to write the code into the remote process
